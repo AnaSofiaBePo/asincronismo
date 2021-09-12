@@ -4,7 +4,8 @@
   "description": "work with async on js",
   "main": "src/index.js",
   "scripts": {
-   "callback": "node src/callbacks/index.js" 
+    "callback": "node src/callbacks/index.js",
+    "callback:challenge": "node src/callbacks/challenge.js"
   },
   "keywords": [
     "callbacks",
@@ -16,5 +17,8 @@
     "\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[Da\u001b[C\u001b[Dsync"
   ],
   "author": "Sofibe",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
